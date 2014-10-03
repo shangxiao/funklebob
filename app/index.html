@@ -32,21 +32,24 @@
          <p class="gist">A curated list of elegant learnings from a djangomeister</p>
 
          <h2>1. KISS</h2>
-         <p><strong>Keep It Simple Stupid</strong><br/> Django is nothing more than routes &amp; views, a simple and lightweight framework.</p>
+         <p><strong>Keep It Simple Stupid</strong><br/> Django is <em>not</em> an MVC framework, it is nothing more than <a href="https://docs.djangoproject.com/en/1.7/#the-view-layer">routes &amp; views</a>; a simple and easy to use framework. Everyting else is optional.</p>
 
          <h2>2. Essence of a Framework</h2>
-         <p>A framework should only a.) Protect you from the bad b.) protect you from the boring</p>
+         <p>A framework should essentially:</p>
+         <ul>
+          <li><span><a href="https://docs.djangoproject.com/en/1.7/#security">Protect you from the dangerous things</a></span></li>
+          <li><span><a href="http://c2.com/cgi/wiki?DontRepeatYourself">Protect you from the boring things</a></span></li>
+         </ul>
 
          <h2>3. DNIY</h2>
-         <p><strong>Don't Need It Yet</strong><br/> If you're wondering whether you need class based views, you probably don't need them, just use a function based view! The same applies for most areas of software development: You don't need REST to do simple things like login</p>
+         <p><strong>Don't Need It Yet</strong><br/> If you're wondering whether you need class based views, you probably don't need them, just use a function based view. Use url shortcuts. The same applies for most areas of software development: You don't need REST to do simple things like login</p>
 
          <h2>4. Don't reinvent the wheel</h2>
-         <p>There are a myriad of 3rd party applications for Django, go forth and explore! If you need a friendly push, here are some good ones you may find helpful:
-          <ol>
-           <li>django-restframework</li>
-           <li>django-allauth</li>
-          </ol>
-         </p>
+         <p>There are a myriad of 3rd party applications for Django, go forth and explore! If you need a friendly push, here are some good ones you may find helpful:</p>
+         <ol>
+          <li>django-restframework</li>
+          <li>django-allauth</li>
+         </ol>
 
          <!-- <footer>Lovingly sponsored by Rapilabs &amp; Common Code</footer> -->
         </div>

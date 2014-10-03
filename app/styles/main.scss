@@ -4,6 +4,14 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
+html, body {
+  background-color: lighten(#E1F0CC, 5%);
+}
+
+.container {
+  max-width: 980px;
+}
+
 h1 {
   text-align: center;
   font-family: 'Lily Script One', helvetica;
@@ -11,22 +19,53 @@ h1 {
   margin-bottom: 0.5em;
   color: darken(#1F686C, 3%);
 }
-.gist {
-  text-align: center;
-  font-size: 18px;
-}
-p, li {
-  text-align: center;
-  list-style-position:inside;
-}
-strong {
-  font-size: larger;
-  font-style: italic;
-}
 h2 {
   font-family: 'Poiret One', helvetica;
   margin-top: 2em;
   text-align: center;
   color: #439B81;
 }
-
+.gist {
+  text-align: center;
+  font-size: 18px;
+}
+p, li {
+  text-align: center;
+}
+ol li {
+  list-style-position:inside;
+}
+ul li {
+  list-style-type: none;
+  line-height: 32px;
+  span {
+    display: inline-block;
+    position: relative;
+    top: -8px;
+  }
+  &:before {
+    content: "\261E\a0\a0";
+    font-size: 32px;
+    line-height: 1px;
+  }
+}
+ul, ol {
+  padding-left: 0;
+}
+strong {
+  font-size: larger;
+  font-style: italic;
+  font-weight: normal;
+  color: #111;
+}
+a {
+  // color: darken(#82C15F, 15%);
+  color: #333;
+  border-bottom: 1px dotted #888;
+}
+a:hover, a:active, a:focus {
+  // color: darken(#82C15F, 25%) !important;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px dotted #888;
+}
