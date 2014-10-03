@@ -1,0 +1,14 @@
+Items
+=====
+ * kiss/dniy
+ * django is not an mvc framework
+ * just use function based views
+ * mongodb will not make you more agile
+
+
+
+Design
+======
+Possible fonts: https://www.google.com/fonts#ReviewPlace:refine/Collection:Lilita+One|Poiret+One|Lily+Script+One|Oleo+Script|Contrail+One|Fugaz+One|Racing+Sans+One|Merienda+One|Pacifico|Lobster+Two|Sansita+One
+
+colour palette: http://www.colourlovers.com/palette/1403563/Mouse_Party_500_1LP
